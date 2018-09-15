@@ -5,11 +5,16 @@
 
 <div class="container">
 	<form action="../create.php" method="POST">
- 	<p> Username:</p>
-         	<input type="text" name="username">
-    <p>Password:</p>
-         	<input type="password" name="password">
-         	<input type="submit" name="btn">
-</form>
+		<div class="form-group">
+ 	    	<p> Username:</p>
+         	<input type="text" class="form-control"  placeholder="Username" name="username">	
+      	</div>
+		<div>  
+			<p>Password:</p>
+         	<input type="password" class="form-control"  placeholder="Password" name="password">
+ 		</div>
+ 		<button type="submit" class="btn btn-primary">Submit</button>	
+ 		<br>
+	</form>
 </div>
  
