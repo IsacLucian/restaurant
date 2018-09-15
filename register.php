@@ -1,7 +1,7 @@
 <?php include 'menu.php' ?>
 
 <div class="container">
-	<form>
+	<form action = "create_user.php" method = "post">
 	  <div class="form-group">
 		<label> Name </label>
 	  	<input type="text" class="form-control" name="name" id="name" placeholder="Enter full name">
@@ -12,11 +12,11 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputEmail1">Email address</label>
-	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name = "email">
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputPassword1">Password</label>
-	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name = "pass">
 	  </div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
 	</form>
