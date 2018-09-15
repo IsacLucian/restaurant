@@ -1,4 +1,7 @@
-<?php include 'style/import-style.php'; ?>
+<?php include 'Style/import-style.php'; ?>
+<style>
+  <?php include 'Style/style.css'; ?>
+</style>
 
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -9,10 +12,10 @@
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/views/add-view.php">Login</a>
+          <a class="nav-link" href="login.php">Login</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="/views/add-view.php">Register</a>
+          <a class="nav-link" href="register.php">Register</a>
         </li>
       </ul>
     </div>
