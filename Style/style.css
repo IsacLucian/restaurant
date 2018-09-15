@@ -1,16 +1,4 @@
-.center {
-	margin: auto;
-}
-
-.navbar {
-	margin-bottom: 20px;
-}
-
-.card {
-	width: 60%;
-	margin: 0 auto;
-	margin-bottom: 50px;
-}
-.float-right {
-	float: right;
+.card-custom {
+	display: inline-block;
+	width: 29%;
 }

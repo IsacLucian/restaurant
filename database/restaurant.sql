@@ -18,16 +18,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Bază de date: `restaurant`
---
-
--- --------------------------------------------------------
-
---
--- Structură tabel pentru tabel `orders`
---
-
 CREATE TABLE `orders` (
   `ID` int(11) NOT NULL,
   `order_id` int(11) DEFAULT NULL,
