@@ -1,39 +1,22 @@
+<?php
+    session_start();
+    include 'Connection/connect.php';
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" href="Style/style.css">
 	</head>
 	<body>
-
 		<?php include 'menu.php' ?>
 
 
+		<div class="container mt-5">
 
-		<div class="container">
+            <h1 class="ml-5 mb-5">Hello, <?= isset($_SESSION['logged_user_name']) ? $_SESSION['logged_user_name'] : 'stranger'?> !</h1>
 
-			<div class="card">
-			  <div class="card-body">
-			    <h5 class="card-title">Card title</h5>
-			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			    <a href="#" class="btn btn-danger">Delete</a>
-			  </div>
-			</div>
-
-			<div class="card card-custom">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-danger">Delete</a>
-                          </div>
-                        </div>
-
-			<div class="card card-custom">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-danger">Delete</a>
-                          </div>
-                        </div>
+			<?php include('products.php'); ?>
 
 		</div>
 	</body>

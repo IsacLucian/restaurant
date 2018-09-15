@@ -1,6 +1,6 @@
 <?php
 
-    $servername = 'restaurant.com';
+    $servername = 'localhost';
     $username = 'root';
     $pass = '';
     $dbname = 'restaurant';

@@ -1,4 +1,6 @@
 .card-custom {
 	display: inline-block;
 	width: 29%;
+	margin-right: 32px;
+	margin-bottom: 24px;
 }
