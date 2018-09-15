@@ -1,4 +1,7 @@
-<?php include 'style/import-style.php'; ?>
+<?php include 'Style/import-style.php'; ?>
+<style>
+  <?php include 'Style/style.css'; ?>
+</style>
 
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
