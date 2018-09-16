@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <?php
     session_start();
     include 'Connection/connect.php';
 ?>
+=======
+>>>>>>> 1018418ca7724e1c60681ea468dba9ed5f2d94e1
 
 <!DOCTYPE html>
 <html>
